@@ -237,7 +237,7 @@ function generateAirPlane() {
     flatShading: true,
     fog: false,
   });
-  const flagText = new THREE.TextureLoader().load("./images/peace-flag.jpg");
+  const flagText = new THREE.TextureLoader().load("./images/india-flag.jpg");
   const matFlag = new THREE.MeshStandardMaterial({
     map: flagText,
     roughness: 0.5,
