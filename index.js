@@ -243,7 +243,7 @@ function generateAirPlane() {
     roughness: 0.5,
     metalness: 1,
     flatShading: true,
-    fog: false,
+    fog: false, 
   });
 
   const fan1Geo = new THREE.BoxGeometry(0.05, 1.2, 0.2);
